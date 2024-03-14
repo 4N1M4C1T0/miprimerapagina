@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi primera web</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/629fd9ff7b.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header id="encabezado">
+                <h1 class="logo">
+                    <a href="index.html" class="fuente-acento">Mi WEB</a>
+                </h1>
+                <nav>
+                    <input type="checkbox" id="check" />
+                        <label for="check" class="checkbtn">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                    <ul>
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Acerca de mi</a></li>
+                        <li><a href="">Trabajos</a></li>
+                        <li><a href="">Servicios</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main id="seccion-principal">
+                <section class="seccion-1">
+                    <div class="acerca-de">
+                        <h2>Acerca de mi</h2>
+                        <p>BIENVENIDO A MI WEB</p>
+                        <P class="parrafo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis unde aliquid magni ullam officiis. Suscipit voluptatum, consequuntur, maxime fugiat architecto dolor, laudantium perferendis at esse ducimus culpa et. Tenetur?</P>
+                    </div>
+                    <div class="img-1">
+                        <img src="img/16461325462200.jpg" alt="imagen portada" width="240px" height="180px">
+                    </div>
+                </section>
+                <section class="seccion-2">
+                    <img src="img/I3BEACHUIZGGNDDWUTSYJNE6W4.jpg" alt="">
+                </section>
+                <section class="seccion-3">
+                    <div class="trabajos">
+                        <div>
+                            <img src="img/unnamed.jpg" alt="">
+                        </div>
+                        <div>
+                            <h3>CONTACTO</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nostrum maiores dicta excepturi rerum autem officiis atque dolore sunt? Blanditiis recusandae omnis consectetur quae rerum at quis quod illo sed!</p>
+                            <a href="#">Ver mas...</a>
+                        </div>
+                    </div>
+                    <div class="trabajos">
+                        <div>
+                            <img src="img/unnamed.jpg" alt="">
+                        </div>
+                        <div>
+                            <h3>CONTACTO</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nostrum maiores dicta excepturi rerum autem officiis atque dolore sunt? Blanditiis recusandae omnis consectetur quae rerum at quis quod illo sed!</p>
+                            <a href="#">Ver mas...</a>
+                        </div>
+                    </div>
+                    <div class="trabajos">
+                        <div>
+                            <img src="img/unnamed.jpg" alt="">
+                        </div>
+                        <div>
+                            <h3>CONTACTO</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nostrum maiores dicta excepturi rerum autem officiis atque dolore sunt? Blanditiis recusandae omnis consectetur quae rerum at quis quod illo sed!</p>
+                            <a href="#">Ver mas...</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="form-header">
+                    <h1>Contacto</h1>
+                    <p><em>¡Esperamos tu consulta!</em></p>
+
+      <form action="" method="get" class="formulario" id="form">
+        <div class="form-row">
+            <label for="nombrando">Nombre</label>
+            <input id="nombrando" name="nombrando" type="text" />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="pepe@gmail.com"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+           </div>
+           <div class="form-row">
+            <button>Enviar</button>
+        </div>
+        <p class="alertas" id="alertas"></p>
+      </form>
+                </section>
+            </main>
+            <footer>
+                <nav>
+                    <ul>
+                        <li class="indice">Contacto</li><br>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Tik Tok</a></li>
+                        <li><a href="">Whatsapp</a></li>
+                    </ul>
+                </nav>
+                <a href="index.html"><i class="fa-solid fa-heart"></i></a>
+            </footer>
+        </div>
+        
+        <script src="script.js"></script>
+        <script src="form.js"></script>
+    </body>
+</html>
